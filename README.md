@@ -18,11 +18,10 @@ This is the Python file that will be used to generate the CSV file.
 http://localhost:3000
 
 # Project Walk-through
-<center>
-<h2>LevelBlue/Labs - Get the API Key</b></h2>
 
+<h2>LevelBlue/Labs - Get the API Key</b></h2>
 This API Key will need to be retrieved to put in the Python script (alienvault_fetch.py). 
-</center>
+
 You need to go to the LevelBlueLabs website (https://otx.alienvault.com/) and sign up.
 ![image](https://github.com/user-attachments/assets/602b62b5-6fbc-45a3-95ab-d9ce0545cd8d)
 
