@@ -9,11 +9,12 @@ These are the websites used to create the dashboard.
 </ul>
 
 # File
-This is the file that will be used to generate the CSV file. It's a Python script.
-<br>alienvault_fetch.py</br>
+This is the Python file that will be used to generate the CSV file. 
+<ul>
+  <li>alienvault_fetch.py</li>
+</ul>
 
-
-# Virtual Environment used
+# Local host used
 http://localhost:3000
 
 # Project Walk-through
@@ -32,9 +33,7 @@ Copy your OTX API Key.
 ![image](https://github.com/user-attachments/assets/b9e4b35e-fdcd-48d1-860f-b53610dc2185)
 
 <h2><b>Download and Run Python Script</b></h2>
-Next, you download and run the Python script file (the Python script file is in the GitHub repository).
-
-Before running the Python script, make sure to install Python on the command prompt, to do this enter ‘pip install requests pandas’ in the command prompt.
+Next, you download and run the Python script file (the Python script file is in the GitHub repository). Before running the Python script, make sure to install Python on the command prompt, to do this enter ‘pip install requests pandas’ in the command prompt.
 
 ![image](https://github.com/user-attachments/assets/70ecd6c0-cf24-4870-b00d-b1dcf12e1ccc)
 
