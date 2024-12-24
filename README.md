@@ -25,9 +25,11 @@ This API Key will need to be retrieved to put in the Python script (alienvault_f
 You need to go to the LevelBlueLabs website (https://otx.alienvault.com/) and sign up.
 ![image](https://github.com/user-attachments/assets/602b62b5-6fbc-45a3-95ab-d9ce0545cd8d)
 
+Next, go to the username and select settings, this is the page where you access the OTX API.
+![image](https://github.com/user-attachments/assets/616aa1e5-ba33-4289-b825-eef82652dc7d)
+
 Copy your OTX API Key.
 ![image](https://github.com/user-attachments/assets/b9e4b35e-fdcd-48d1-860f-b53610dc2185)
-
 
 <h2><b>Download and Run Python Script</b></h2>
 Next, you download and run the Python script file (the Python script file is in the GitHub repository).
@@ -37,11 +39,13 @@ Before running the Python script, make sure to install Python on the command pro
 ![image](https://github.com/user-attachments/assets/70ecd6c0-cf24-4870-b00d-b1dcf12e1ccc)
 
 Next, make sure to use 'cd' and then the location of the file that you downloaded it to. Then enter type ‘python alienvault_fetch.py’ to run the file. Once that is complete you will see a csv file in the same location the python file is saved.
+
 ![image](https://github.com/user-attachments/assets/59895bd9-9d69-4103-8169-f4bbbc3bbc10)
 
 <h2><b>Grafana - Create Dashboard</b></h2>
-You need to go to the Grafana website (https://grafana.com/grafana/download?platform=windows) and then press ‘download the installer’.
-![image](https://github.com/user-attachments/assets/553e60de-44ad-47b9-b8cb-498208a730d3)
+You need to go to the Grafana website (<a href="https://grafana.com/grafana/download?platform=windows">Download Grafana</a>) and then press ‘download the installer’.
+
+![image](https://github.com/user-attachments/assets/647868c0-92f2-4da8-b01d-7a228cd3cf11)
 
 To make sure that the localhost is running, go to services and select ‘Grafana’ if it is not running then press start but if it is running then close the services application.
 ![image](https://github.com/user-attachments/assets/ebd1bd49-007b-431a-ae26-0df16d1b9ee4)
@@ -69,9 +73,6 @@ Select add visualisation.
 
 Then just select the CSV that you imported.
 ![image](https://github.com/user-attachments/assets/8648aca3-9d20-489b-8f74-04dfe4c42868)
-
-To display the data press the table view to display the data.
-![image](https://github.com/user-attachments/assets/c274d601-ac7c-4f06-a923-48e8387c292b)
 
 To display the data, select the table view button.
 ![image](https://github.com/user-attachments/assets/74072a83-c7a1-40c0-81a3-e28f89ac4a25)
